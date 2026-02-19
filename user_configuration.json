@@ -1,0 +1,78 @@
+{
+    "app_config": {
+        "audio_config": {
+            "audio": "pipewire"
+        },
+        "bluetooth_config": {
+            "enabled": true
+        }
+    },
+    "archinstall-language": "English",
+    "auth_config": {},
+    "bootloader_config": {
+        "bootloader": "Limine",
+        "removable": true,
+        "uki": false
+    },
+    "custom_commands": [],
+    "hostname": "archlinux",
+    "kernels": [
+        "linux"
+    ],
+    "locale_config": {
+        "kb_layout": "colemak",
+        "sys_enc": "UTF-8",
+        "sys_lang": "en_US.UTF-8"
+    },
+    "network_config": {
+        "type": "nm"
+    },
+    "ntp": true,
+    "packages": [
+        "base-devel",
+        "cosmic-files",
+        "cosmic-greeter",
+        "cosmic-player",
+        "cosmic-store",
+        "ghostty",
+        "hypridle",
+        "hyprland",
+        "hyprlauncher",
+        "hyprlock",
+        "hyprpaper",
+        "hyprpicker",
+        "hyprpolkitagent",
+        "hyprpwcenter",
+        "hyprshot",
+        "hyprsunset",
+        "lazygit",
+        "less",
+        "mako",
+        "opencode",
+        "stow",
+        "syncthing",
+        "tldr",
+        "tmux",
+        "unzip",
+        "uwsm",
+        "xdg-desktop-portal-hyprland"
+    ],
+    "parallel_downloads": 0,
+    "profile_config": {
+        "gfx_driver": null,
+        "greeter": null,
+        "profile": {
+            "custom_settings": {},
+            "details": [],
+            "main": "Minimal"
+        }
+    },
+    "script": null,
+    "services": [],
+    "swap": {
+        "algorithm": "zstd",
+        "enabled": true
+    },
+    "timezone": "US/Eastern",
+    "version": "3.0.15"
+}
