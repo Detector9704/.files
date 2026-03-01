@@ -1,8 +1,12 @@
 position = "Bottom"
 
 [modules]
-left = [ "Workspaces", "WindowTitle", "MediaPlayer" ]
-right = [ "KeyboardLayout", "SystemInfo", "Tray", "Privacy", "Clock", "Settings" ]
+left = [ "Workspaces", "WindowTitle" ]
+center = [ "MediaPlayer" ]
+right = [ "SystemInfo", "Tray", "Clock", "Privacy", "Settings" ]
+
+[system_info]
+indicators = [ "Cpu", "Temperature", "Memory" ]
 
 [appearance]
 style = "Solid"
